@@ -5,9 +5,13 @@ import './style.scss';
 
 const App: React.VFC = () => {
   return (
-    <div>
-      <Hello />
-      <p>Start editing to see some magic happen :)</p>
+    <div className="card__layout">
+      <h2>The Cards</h2>
+      <ul className="cards">
+        <Hello />
+        <Hello />
+        <Hello />
+      </ul>
     </div>
   );
 };

@@ -67,6 +67,9 @@ img {
   }
 }
 
+// .card__layout {
+// display: flex;
+// }
 .card {
   background-color: white;
   border-radius: 0.25rem;
@@ -111,7 +114,7 @@ img {
 
 .card__image {
   &--flowers {
-    background-image: url(https://unsplash.it/800/600?image=82);
+    background-image: url(https://unsplash.it/800/600?image=80);
   }
 
   &--river {
@@ -123,14 +126,14 @@ img {
   }
 
   &--fence {
-    background-image: url(https://unsplash.it/800/600?image=59);
+    background-image: url(https://unsplash.it/800/600?image=60);
   }
 }
 
 .card {
   &__title {
     color: #696969;
-    font-size: 1.25rem;
+    font-size: 1em;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
