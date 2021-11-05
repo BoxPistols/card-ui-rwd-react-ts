@@ -1,0 +1,27 @@
+.card {
+  &--layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(120px, 320px), 1fr));
+    gap: 1rem;
+  }
+  &--list {
+    list-style: none;
+    border: 1px solid #ccc;
+  }
+  &--img {
+    overflow: hidden;
+    // height: fit-content;
+    height: 80px;
+    img {
+      display: block;
+      height: 120px;
+      object-fit: cover;
+      object-position: 0px -35px;
+      width: 100%;
+    }
+  }
+  &--content {
+    padding: 0.5em;
+    overflow-wrap: break-word;
+  }
+}
